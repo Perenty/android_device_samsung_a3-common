@@ -58,7 +58,7 @@ camera_module_t HAL_MODULE_INFO_SYM = {
          .name = "Samsung MSM8916 Camera Wrapper",
          .author = "The CyanogenMod Project",
          .methods = &camera_module_methods,
-         .dso = NULL, /* remove compilation warnings */
+         .dso = NULL,CF12,NULL /* remove compilation warnings */
          .reserved = {0}, /* remove compilation warnings */
     },
 
